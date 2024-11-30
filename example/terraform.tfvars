@@ -1,4 +1,4 @@
-#org_id = "18193db2-80a8-4ea2-9e93-887f606de96a" # In this example TF_VAR_org_id environment variable is used instead
+#org_id = "" # In this example TF_VAR_org_id environment variable is used instead
 
 #root_password = "Juniper123" # # In this example TF_VAR_root_password environment variable is used instead
 

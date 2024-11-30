@@ -13,10 +13,14 @@ The module creates all Juniper Mist constructs needed for the fully operational 
 ## Dependencies
 
 - [Juniper Mist account](https://manage.mist.com/signin.html#!signup/register) and an associated Organization ID
-- Claimed Juniper Mist compatible [Juniper SRX secure gateways](https://www.juniper.net/documentation/us/en/software/mist/content/mist-supported-hardware.html#xd_a679a623514d95d6-669993c-186f9d4ff5a--7e07__section_srx) or adopted [virtual SRX appliances](https://support.juniper.net/support/downloads/?p=vsrx-evaluation)
+- Claimed Juniper Mist compatible [Juniper SRX secure gateways](https://www.juniper.net/documentation/us/en/software/mist/content/mist-supported-hardware.html#xd_a679a623514d95d6-669993c-186f9d4ff5a--7e07__section_srx) or adopted [virtual SRX appliances](https://support.juniper.net/support/downloads/?p=vsrx-evaluation) with AppID license applied.
 - Claimed [Juniper EX or QFX switches](https://www.juniper.net/documentation/us/en/software/mist/content/mist-supported-hardware.html#xd_a679a623514d95d6-669993c-186f9d4ff5a--7e07__section_krr_y15_swb) or adopted [vJunos-switch appliances](https://www.juniper.net/us/en/dm/vjunos-labs.html)
 
 Based on the variable values the deployment can also be limited to just SRX devices.
+
+## Example
+
+The example deployment was based on vSRX and vJunos-switch virtual appliances.
 
 ## Requirements
 
@@ -26,30 +30,17 @@ Based on the variable values the deployment can also be limited to just SRX devi
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_mist"></a> [mist](#provider\_mist) | ~> 0.2.6 |
+No providers.
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_srx_hub_and_spoke"></a> [srx\_hub\_and\_spoke](#module\_srx\_hub\_and\_spoke) | ./modules/srx_hub_and_spoke | n/a |
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| mist_device_gateway.this | resource |
-| mist_device_switch.this | resource |
-| mist_org_deviceprofile_assign.this | resource |
-| mist_org_deviceprofile_gateway.this | resource |
-| mist_org_gatewaytemplate.this | resource |
-| mist_org_inventory.this | resource |
-| mist_org_network.this | resource |
-| mist_org_networktemplate.this | resource |
-| mist_org_service.this | resource |
-| mist_org_sitegroup.this | resource |
-| mist_site.this | resource |
-| mist_site_setting.this | resource |
+No resources.
 
 ## Inputs
 
