@@ -3,7 +3,7 @@
 ## Description
 
 The module provides a way for streamlined deployment of a model SD-WAN hub and spoke environment based on Juniper SRX managed by Juniper Mist. Example topology is provided below.
-Ht
+
 ![The topology is available in the GitHub repository here: https://github.com/tnonas/terraform-juniper-mist-srx-sdwan/blob/main/modules/srx_hub_and_spoke/README.md](docs/topology.png)
 
 Note, that only the green colored devices and blue colored IP configuration is covered by the module's contents. The example provided uses this specific addressing. The black and white devices, i.e., PCs, servers and routers are for illustration purposes only and serve as a potential add-on outside the module's scope of automation.
