@@ -1,6 +1,6 @@
 variable "org_id" { # Mandatory
   type        = string
-  description = "Target Mist org ID for all automation operations"
+  description = "Target Juniper Mist organization ID for all automation operations"
   validation {
     condition     = can(regex("^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", var.org_id)) # Must have UUID length and structure
     error_message = "Not a valid string for Mist org's ID"
@@ -81,7 +81,7 @@ variable "hub_profiles" {
     routing_policies = any
     bgp_config = any
   }))
-  description = "Device profiles definitions to be applied to SD-WAN hub devices"
+  description = "Device profiles definitions to be applied to WAN Edge hub devices"
 }
 
 variable "edge_template" {
@@ -98,7 +98,7 @@ variable "edge_template" {
     path_preferences = any
     service_policies = any
   }))
-  description = "Edge templates to be applied to sites with WAN Edge devices (spokes)"
+  description = "Edge templates to be applied to sites with WAN Edge spoke devices"
 }
 
 variable "switch_template" {

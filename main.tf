@@ -1,6 +1,6 @@
 module "srx_hub_and_spoke" {
 
-  source = "../modules/srx_hub_and_spoke"
+  source = "./modules/srx_hub_and_spoke"
 
   org_id        = var.org_id
   name-prefix   = var.name-prefix
