@@ -2,9 +2,9 @@
 # Hub and spoke SD-WAN with Juniper SRX managed with Juniper Mist
 ## Description
 
-The module allows for rapid deployment of SD-WAN hub and spoke environment based on Juniper SRX managed by Juniper Mist. Branch EX switches can also be included in the deployment. Example topology is provided below.
+The module allows for rapid deployment of SD-WAN hub and spoke environment based on Juniper SRX managed by Juniper Mist. Branch EX switches can also be included in the deployment. [Example topology](https://github.com/tnonas/terraform-juniper-mist-srx-sdwan/blob/main/modules/srx_hub_and_spoke/README.md):
 
-![The topology is available in the GitHub repository here: https://github.com/tnonas/terraform-juniper-mist-srx-sdwan/blob/main/modules/srx_hub_and_spoke/README.md](docs/topology.png)
+![The example topology. If it does not render, please refer to the link above.](docs/topology.png)
 
 Note, that only the green colored devices and blue colored IP configuration is covered by the module's contents. The example provided uses this specific addressing. The black and white devices, i.e., PCs, servers and routers are for illustration purposes only and serve as a potential add-on outside the module's scope of automation.
 
