@@ -1,1 +1,1 @@
-This is the root module of terraform-juniper-mist-srx-sdwan module. Please refer to [module's README.md](https://github.com/tnonas/terraform-juniper-mist-srx-sdwan/blob/main/modules/srx_hub_and_spoke/README.md) for additional information.
+This is the root part of terraform-juniper-mist-srx-sdwan module. Please refer to [module's proper README.md](https://github.com/tnonas/terraform-juniper-mist-srx-sdwan/blob/main/modules/srx_hub_and_spoke/README.md) for additional information.
