@@ -40,6 +40,7 @@ variable "networks" {
     subnet                 = string
     vlan_id                = any
     disallow_mist_services = bool
+    tenants                = optional(any)
     vpn_access = object({
       OrgOverlay = object({
         routed                     = bool

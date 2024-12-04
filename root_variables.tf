@@ -40,6 +40,9 @@ variable "networks" {
     subnet                 = string
     vlan_id                = any
     disallow_mist_services = bool
+    tenants                = optional(map(object({
+      addresses = list(string)
+    })))
     vpn_access = object({
       OrgOverlay = object({
         routed                     = bool
